@@ -1,0 +1,21 @@
+{
+  "name": "eatis_tailwindcss2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/css/app.css -o public/app.css",
+    "watch": "postcss src/css/app.css -o public/app.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.10",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "postcss-cli": "^8.3.0"
+  }
+}
