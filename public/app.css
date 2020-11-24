@@ -580,6 +580,32 @@ video {
   }
 }
 
+#navbar {
+  background: transparent;
+  padding: 90px 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: 0.4s;
+}
+
+#navbar a {
+  float: left;
+  padding: 12px;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#navbar-right {
+  float: right;
+}
+
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
