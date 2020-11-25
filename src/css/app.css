@@ -15,18 +15,18 @@
 #navbar {
   @apply px-5 top-0 py-12 fixed w-full;
   transition: 0.4s;
-}
+  }
 
 #navbar a {
   @apply p-1 leading-3;
-}
+  }
 
 #navbar #logo {
   @apply flex justify-center;
-}
+  }
 
 #navbar-right {
   @apply flex justify-end top-0;
-}
+  }
 
 @tailwind utilities;
