@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 
-
+/* 
 #navbar {
   background: transparent;
   padding: 90px 10px;
@@ -10,23 +10,23 @@
   top: 0;
   transition: 0.4s;
 }
+*/
+
+#navbar {
+  @apply px-5 top-0 py-12 fixed w-full;
+  transition: 0.4s;
+}
 
 #navbar a {
-  float: left;
-  padding: 12px;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+  @apply p-1 leading-3;
 }
 
 #navbar #logo {
-  font-size: 35px;
-  font-weight: bold;
+  @apply flex justify-center;
 }
 
 #navbar-right {
-  float: right;
+  @apply flex justify-end top-0;
 }
-
 
 @tailwind utilities;
