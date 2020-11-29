@@ -4,7 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'eatis-blue': '#1f285c',
+        'eatis-primary': '#1f285c',
+        'eatis-secondary': '#1f285c',
+        'eatis-success': '#1f285c',
+        'eatis-danger': '#1f285c',
+        'eatis-warning': '#1f285c',
+        'eatis-info': '#1f285c',
+
       }
     },
   },
