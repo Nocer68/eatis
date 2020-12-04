@@ -592,30 +592,10 @@ video {
 */
 
 #navbar {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
   position: fixed;
   top: 0px;
   width: 100%;
   transition: 0.4s;
-}
-
-#navbar a {
-  line-height: .75rem;
-  padding: 0.25rem;
-}
-
-#navbar #logo {
-  display: flex;
-  justify-content: center;
-}
-
-#navbar-right {
-  display: flex;
-  justify-content: flex-end;
-  top: 0px;
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
