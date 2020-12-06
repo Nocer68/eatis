@@ -30,11 +30,15 @@ header{
 }
 
 .navbrand{
-  @apply pt-11 pl-11;
+  @apply flex pt-20 pl-11;
 }
 
 .navbarbutton{
-  @apply text-white hover:text-eatis-secondary px-3 py-2 rounded-md font-bold;
+  @apply text-white hover:text-eatis-secondary px-3 py-2 font-bold ;
+}
+
+.navbaricon{
+  @apply hover:text-eatis-secondary h-12 w-12 fill-current text-white;
 }
 
  /*Apply styles after scroll .navbar {
@@ -59,6 +63,11 @@ header{
 .scrolling-active .navbarbutton{
   @apply text-eatis-warning hover:text-gray-200 px-3 py-2 rounded-md font-bold;
 }
+
+.scrolling-active .navbaricon{
+  @apply text-eatis-secondary hover:text-gray-200 h-12 w-12 fill-current;
+}
+
 /*Apply styles after scroll end*/
 
 @tailwind utilities;
