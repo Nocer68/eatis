@@ -591,12 +591,86 @@ video {
 }
 */
 
-#navbar {
-  position: fixed;
-  top: 0px;
+header{
   width: 100%;
-  transition: 0.4s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: background-color .5s ease;
+  z-index: 1000;
 }
+
+.nav{
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: height .5s ease;
+}
+
+.navbrand{
+  padding-top: 2.75rem;
+  padding-left: 2.75rem;
+}
+
+.navbarbutton{
+  border-radius: 0.375rem;
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.navbarbutton:hover {
+  --tw-text-opacity: 1;
+  color: rgba(31, 40, 92, var(--tw-text-opacity));
+}
+
+/*Apply styles after scroll .navbar {
+  @apply top-0 fixed w-full;
+  transition: 0.4s;
+  }
+  */
+
+/*Apply styles after scroll*/
+
+.scrolling-active{
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.scrolling-active .nav{
+  height: 8rem;
+}
+
+.scrolling-active .navbrand svg{
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
+
+.scrolling-active .navbarbutton{
+  border-radius: 0.375rem;
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(31, 40, 92, var(--tw-text-opacity));
+}
+
+.scrolling-active .navbarbutton:hover {
+  --tw-text-opacity: 1;
+  color: rgba(229, 231, 235, var(--tw-text-opacity));
+}
+
+/*Apply styles after scroll end*/
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;

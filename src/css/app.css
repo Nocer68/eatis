@@ -11,12 +11,54 @@
   transition: 0.4s;
 }
 */
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: background-color .5s ease;
+  z-index: 1000;
+}
 
-#navbar {
+.nav{
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: height .5s ease;
+}
+
+.navbrand{
+  @apply pt-11 pl-11;
+}
+
+.navbarbutton{
+  @apply text-white hover:text-eatis-secondary px-3 py-2 rounded-md font-bold;
+}
+
+ /*Apply styles after scroll .navbar {
   @apply top-0 fixed w-full;
   transition: 0.4s;
   }
+  */
 
+/*Apply styles after scroll*/
+.scrolling-active{
+  @apply shadow-xl bg-white;
+}
 
+.scrolling-active .nav{
+  height: 8rem;
+}
+
+.scrolling-active .navbrand svg{
+  @apply  text-black;
+}
+
+.scrolling-active .navbarbutton{
+  @apply text-eatis-warning hover:text-gray-200 px-3 py-2 rounded-md font-bold;
+}
+/*Apply styles after scroll end*/
 
 @tailwind utilities;
