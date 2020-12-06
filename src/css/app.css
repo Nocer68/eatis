@@ -34,7 +34,7 @@ header{
 }
 
 .navbarbutton{
-  @apply text-white hover:text-eatis-secondary px-3 py-2 font-bold transition duration-150 ease-in-out;
+  @apply text-white hover:text-eatis-secondary px-3 py-2 font-bold transition duration-150 ease-in-out uppercase;
 }
 
 .navbaricon{
