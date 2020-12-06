@@ -686,6 +686,14 @@ header{
   color: rgba(229, 231, 235, var(--tw-text-opacity));
 }
 
+.scrolling-active .navbarbutton {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .scrolling-active .navbaricon{
   height: 3rem;
   fill: currentColor;
@@ -700,6 +708,11 @@ header{
 
 .scrolling-active .navbaricon {
   width: 3rem;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 /*Apply styles after scroll end*/

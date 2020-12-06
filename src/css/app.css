@@ -34,11 +34,11 @@ header{
 }
 
 .navbarbutton{
-  @apply text-white hover:text-eatis-secondary px-3 py-2 font-bold ;
+  @apply text-white hover:text-eatis-secondary px-3 py-2 font-bold transition duration-150 ease-in-out;
 }
 
 .navbaricon{
-  @apply hover:text-eatis-secondary h-12 w-12 fill-current text-white;
+  @apply hover:text-eatis-secondary h-12 w-12 fill-current text-white transition duration-150 ease-in-out;
 }
 
  /*Apply styles after scroll .navbar {
@@ -61,11 +61,11 @@ header{
 }
 
 .scrolling-active .navbarbutton{
-  @apply text-eatis-warning hover:text-gray-200 px-3 py-2 rounded-md font-bold;
+  @apply text-eatis-warning hover:text-gray-200 px-3 py-2 rounded-md font-bold transition duration-150 ease-in-out;
 }
 
 .scrolling-active .navbaricon{
-  @apply text-eatis-secondary hover:text-gray-200 h-12 w-12 fill-current;
+  @apply text-eatis-secondary hover:text-gray-200 h-12 w-12 fill-current transition duration-150 ease-in-out;
 }
 
 /*Apply styles after scroll end*/
