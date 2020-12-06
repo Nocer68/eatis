@@ -13,6 +13,7 @@
   "dependencies": {
     "autoprefixer": "^10.0.2",
     "postcss": "^8.1.10",
+    "slick-carousel": "^1.8.1",
     "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
