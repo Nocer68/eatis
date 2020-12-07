@@ -65,7 +65,7 @@ header{
 }
 
 .scrolling-active .navbaricon{
-  @apply text-eatis-secondary hover:text-gray-200 h-12 w-12 fill-current transition duration-150 ease-in-out;
+  @apply text-eatis-secondary hover:text-gray-200 h-11 w-11 fill-current transition duration-150 ease-in-out font-bold;
 }
 
 /*Apply styles after scroll end*/

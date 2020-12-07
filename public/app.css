@@ -709,7 +709,8 @@ header{
 }
 
 .scrolling-active .navbaricon{
-  height: 3rem;
+  font-weight: 700;
+  height: 2.75rem;
   fill: currentColor;
   --tw-text-opacity: 1;
   color: rgba(31, 40, 92, var(--tw-text-opacity));
@@ -721,7 +722,7 @@ header{
 }
 
 .scrolling-active .navbaricon {
-  width: 3rem;
+  width: 2.75rem;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
