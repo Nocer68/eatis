@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>École de pilotage EATIS | professionnalisme & excellence</title>
+  <link rel="stylesheet" href="./app.css">
+  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+  <link rel="stylesheet" href="../node_modules/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="../node_modules/slick-carousel/slick/slick-theme.css">
+</head>
+
+<body>
+
+  <section>
+
+    <div class="w-full h-screen">
+
+      <div class="bg-black">
+
+      </div>
+      <div class="absolute inset-0">
+        <video src="assets/videos/videoEatis.mp4" autoplay muted loop class="absolute w-full h-full object-cover" />
+      </div>
+
+
+
+      <div
+        class="text-white absolute top-0 left-0 w-full h-full flex lg:justify-center items-center lg:text-center px-5">
+        <div>
+          <h1 class="font-extrabold leading-tight text-6xl md:text-6xl lg:text-6xl mb-16">Devenez pilote,
+            <br class="font-extrabold leading-tight hidden md:block sm:block" />Maintenant.
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <header>
+    <nav class="flex items-center py-2 px-4 flex-wrap">
+
+      <svg class="logo">
+        <path
+          d="M23.998 27.818V11.35c0-4.621 2.89-6.931 8.668-6.931H55.2v5.2H32.666c-1.157 0-1.734.578-1.734 1.73v5.655h18.199v5.197H30.932v5.616c0 1.157.577 1.734 1.734 1.734H55.2v5.202H32.666c-5.778.001-8.668-2.309-8.668-6.935M58.666 29.552h5.197v5.202h-5.197zM105.468 29.552h5.201v5.202h-5.201zM114.134 9.618v-5.2h27.736v5.2h-10.402v25.133h-6.931V9.618zM145.338 29.552h5.197v5.202h-5.197zM154.005 4.419h6.936v30.334h-6.936zM164.437 29.552h5.203v5.202h-5.203zM173.104 34.754v-5.202h23.402c2.306 0 3.465-1.156 3.465-3.468 0-2.588-1.159-3.882-3.465-3.882h-14.734c-5.203 0-8.092-3.039-8.668-9.118.576-5.778 3.465-8.665 8.668-8.665h25.134v5.2h-23.401c-2.312 0-3.465 1.154-3.465 3.465 0 2.613 1.152 3.92 3.465 3.92h13.002c6.355 0 9.82 3.025 10.399 9.08-.579 5.778-4.044 8.669-10.399 8.669h-23.403zM23.998 51.027h4.768v.959h-3.625v2.944h3.352v.944h-3.352v4.011h-1.143zM36.964 51.027h1.144v7.9h3.782v.958h-4.926zM49.73 51.027h1.143v8.857H49.73zM66.179 59.49a8.27 8.27 0 01-2.721.484c-1.337 0-2.442-.343-3.308-1.169-.762-.734-1.237-1.92-1.237-3.297.017-2.644 1.829-4.573 4.797-4.573 1.024 0 1.824.224 2.207.408l-.277.933c-.471-.211-1.065-.38-1.958-.38-2.154 0-3.561 1.337-3.561 3.56 0 2.243 1.354 3.575 3.416 3.575.749 0 1.261-.104 1.526-.239v-2.641h-1.801v-.922h2.917v4.261zM75.635 51.027v3.705h4.281v-3.705h1.16v8.858h-1.16v-4.153h-4.281v4.153h-1.143v-8.858zM91.308 52h-2.694v-.973h6.555V52h-2.707v7.885h-1.154z" />
+        <g>
+          <path
+            d="M116.412 56.204l-.869-2.549c-.197-.579-.326-1.104-.458-1.616h-.026a27.395 27.395 0 01-.447 1.606l-.866 2.559h2.666zm-2.904.896l-.919 2.782h-1.183l3.007-8.854h1.38l3.023 8.854h-1.222l-.946-2.782h-3.14zM132.673 59.596c-.419.21-1.264.421-2.338.421-2.496 0-4.376-1.579-4.376-4.481 0-2.775 1.88-4.652 4.623-4.652 1.106 0 1.802.237 2.104.393l-.276.935c-.433-.21-1.049-.366-1.785-.366-2.078 0-3.455 1.327-3.455 3.652 0 2.166 1.245 3.557 3.402 3.557.695 0 1.405-.142 1.864-.363l.237.904zM145.059 56.204l-.863-2.549c-.201-.579-.332-1.104-.464-1.616h-.023a26.656 26.656 0 01-.448 1.606l-.866 2.559h2.664zm-2.902.896l-.919 2.782h-1.182l3.006-8.854h1.379l3.023 8.854h-1.222l-.945-2.782h-3.14zM156.475 58.977c.29.055.709.065 1.156.065 2.446 0 3.772-1.364 3.772-3.757.011-2.088-1.171-3.415-3.585-3.415-.596 0-1.038.05-1.344.116v6.991zm-1.143-7.831a16.277 16.277 0 012.433-.182c1.639 0 2.81.379 3.586 1.101.787.724 1.246 1.748 1.246 3.18 0 1.443-.445 2.628-1.271 3.444-.827.826-2.196 1.274-3.918 1.274a19.16 19.16 0 01-2.075-.105v-8.712z" />
+        </g>
+        <path
+          d="M175.235 55.729h-3.442v3.195h3.834v.961h-4.98v-8.858h4.786v.959h-3.64v2.799h3.442zM191.143 55.994c-.068-1.236-.145-2.719-.134-3.824h-.037a51.242 51.242 0 01-1.116 3.365l-1.564 4.295h-.868l-1.43-4.216c-.419-1.248-.774-2.391-1.024-3.444h-.031a105.39 105.39 0 01-.166 3.916l-.237 3.799h-1.093l.618-8.857h1.459l1.509 4.284c.369 1.088.672 2.062.896 2.983h.042c.222-.896.537-1.867.93-2.983l1.58-4.284h1.459l.545 8.857h-1.114l-.224-3.891zM202.78 59.885v-3.76l-2.798-5.098h1.3l1.248 2.443c.343.669.605 1.209.88 1.827h.028c.251-.578.551-1.158.891-1.827l1.277-2.443h1.3l-2.97 5.087v3.771h-1.156zM79.193 11.689c1.75 2.518 3.347 5.231 4.867 7.978a172.59 172.59 0 013.245 6.14h-9.473l-.119-2.505c-.079-1.604-.187-3.19-.278-4.786l-.146-2.39-.17-2.406-.385-5.183c.855.954 1.678 2.033 2.459 3.152M23.796 42.603c.003.004.005.004 0 0M11.8 43.05l-.029.006c.011-.006.021-.006.032-.011.121 0 .011.005-.003.005M.113 44.496c-.041.012-.008 0 0 0m202.152.432a84.25 84.25 0 00-4.759-.69 190.542 190.542 0 00-9.562-.885 513.747 513.747 0 00-19.175-.939c-6.398-.195-12.797-.324-19.194-.408a682.54 682.54 0 00-9.598-.065h-4.805l-4.818.044c-3.21.071-6.366-.04-9.539-.04l-4.761-.137c-1.579-.058-3.159-.16-4.739-.236-1.574-.124-3.154-.217-4.708-.39-.783-.071-1.545-.172-2.306-.269l-.265-.039-.25-.046a.747.747 0 01-.135-.025l-.062-.017-.162-.047a5.147 5.147 0 01-.775-.324c-1.07-.545-2.15-1.498-3.125-2.567-.98-1.074-1.89-2.279-2.737-3.543a49.723 49.723 0 01-2.367-3.933c-.355-.667-.736-1.384-1.009-2.001l-1.019-2.205a178.773 178.773 0 00-4.36-8.673c-1.555-2.85-3.188-5.667-5.071-8.415-.952-1.369-1.952-2.724-3.167-4.036-.623-.656-1.281-1.302-2.155-1.914a6.86 6.86 0 00-1.575-.839c-.628-.231-1.469-.409-2.416-.231l-2.002.38.134 2.059.636 9.555.305 4.759c.105 1.59.224 3.192.307 4.772l.257 4.746.193 4.749.059 2.37c.02.79.044 1.579.041 2.364.003.779.021 1.574.003 2.343l-.003.306c-1.353.098-2.703.197-4.054.313-2.027.161-4.063.242-6.094.371-2.032.137-4.073.174-6.111.264-2.036.089-4.08.131-6.123.184l-12.281.304-6.158.166c-2.054.062-4.109.115-6.166.236l-2.947.152c-.043-.053-.088-.105-.134-.163a11.957 11.957 0 01-.739-1.132c-.969-1.68-1.842-3.544-2.737-5.382-.911-1.854-1.755-3.702-2.92-5.59a11.158 11.158 0 00-.507-.728c-.2-.251-.394-.507-.79-.815-.21-.14-.494-.378-1.124-.412.1-.013-.267.013-.229.013l-.025.002-.048.005c.02-.002-.129.025-.199.046a2.063 2.063 0 00-.256.092c-.25.122-.402.245-.531.371a2.518 2.518 0 00-.47.658 4.893 4.893 0 00-.217.526c-.21.645-.292 1.19-.375 1.739a28.538 28.538 0 00-.169 1.606c-.167 2.096-.21 4.149-.334 6.166-.062 1.001-.132 2.01-.288 2.918a7.166 7.166 0 01-.139.621c-.011.032-.018.063-.032.095l-.634.055c-2.05.193-4.098.337-6.143.558l-3.071.311-.768.087-.38.039-.191.019-.084.006H.099l-.01.005c-.005.048-.005.021-.003-.005-.022 0-.014-.008-.086.011-.003.657.064.197.057.342l.03.005.102.017.197.021.383.042.771.085c1.027.097 2.051.174 3.078.256 2.055.176 4.106.271 6.158.407l.77.045.191.014.097.005c.051 0 .005.01.191-.005.267-.019.54-.13.712-.248.1-.062.181-.129.24-.189a1.53 1.53 0 00.175-.182c.362-.472.435-.782.548-1.098.095-.311.16-.596.216-.875.208-1.11.296-2.147.383-3.19.162-2.07.245-4.121.439-6.104.047-.497.106-.984.181-1.453l.039-.23c.913 1.567 1.721 3.374 2.543 5.135.865 1.862 1.696 3.737 2.738 5.633.267.474.548.95.915 1.453.196.253.385.511.744.821.09.074.191.155.326.24.057.036.15.087.235.126l.131.061c.082.026.167.056.254.076.086.024.173.035.258.046l.049.004.025.006c.083 0-.151-.006.191.005h.24l3.063.006c2.038 0 4.082-.006 6.128.021l6.139.068 6.153.079 3.077.042 3.084-.005c2.056-.006 4.111 0 6.17-.039 2.063-.042 4.121-.035 6.184-.124 2.061-.079 4.124-.121 6.19-.235 2.062-.113 4.127-.266 6.188-.396l1.952-.127.131-1.953c.065-.948.081-1.717.095-2.552.024-.824.011-1.624.013-2.44.008-.814-.01-1.619-.025-2.426l-.044-2.414-.125-3.59h11.098l.399.833c.396.838.782 1.523 1.194 2.259a54.154 54.154 0 002.66 4.23c.962 1.372 2.002 2.71 3.203 3.971 1.208 1.251 2.548 2.47 4.351 3.357a8.2 8.2 0 001.453.55c.129.034.254.068.418.1l.23.048.161.026.341.043.331.038c.83.077 1.654.151 2.465.198 1.631.124 3.242.155 4.861.227 1.614.018 3.23.062 4.842.062l4.832-.038c3.22-.099 6.453-.201 9.634-.414l4.763-.279 4.789-.124 9.576-.205c6.388-.124 12.775-.205 19.16-.214 6.393-.004 12.78.009 19.16.211 3.194.104 6.385.227 9.565.456 1.59.118 3.181.255 4.766.46 1.576.219 3.167.443 4.676.982-1.484-.616-3.074-.916-4.643-1.208" />
+      </svg>
+
+
+      <div
+        class="nav-toggler menutoggler"
+        data-menu="#nav-menu">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </div>
+      <div class="menu-wrapper ml-auto w-full md:w-auto lg:w-auto hidden  md:flex lg:flex" id="nav-menu">
+        <ul class="md:inline-flex lg:inline-flex md:flex-row lg:flex-row flex flex-col">
+          <li>
+            <a href="#" class="x-4 lists">École</a>
+          </li>
+          <li>
+            <a href="#" class="x-4 lists">Flotte</a>
+          </li>
+          <li>
+            <a href="#" class="x-4 lists">Simulateurs</a>
+          </li>
+          <li>
+            <a href="#" class="x-4 lists">Équipe</a>
+          </li>
+          <li>
+            <a href="#" class="x-4 lists">Contact</a>
+          </li>
+          <li class="md:px-2">
+            <a href="#" class="button">NOS
+              FORMATIONS</a>
+          </li>
+          <li>
+            <a href="#" class="button">ESPACE
+              ÉLÈVE</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="py-24 bg-white">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:text-center">
+          <h3
+            class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-eatis-secondary sm:text-4xl sm:leading-10">
+            École de pilotage EATIS Flight Academy
+          </h3>
+          <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+            Pour toutes ces raisons, EATIS Flight Academy est aujourd’hui l’une des écoles de pilotage la plus
+            performante du marché
+            avec l’un des meilleurs taux de réussite à vos diplômes.
+          </p>
+        </div>
+
+        <div class="mt-10">
+          <div class="flex flex-wrap">
+
+            <div class="md:w-1/3">
+              <div>
+                <img src="assets/icons/Plane.svg" alt="" class="mx-auto object-center h-24 w-24">
+              </div>
+              <div>
+                <p class="text-center font-semibold text-gray-600 pt-4">
+                  10 appareils répartis sur les deux principaux centres. principaux centres. principaux centres.
+                  principaux centres.
+                </p>
+              </div>
+            </div>
+            <div class="md:w-1/3">
+              <div>
+                <img src="assets/icons/Certificate.svg" alt="" class="mx-auto object-center h-24 w-24">
+              </div>
+              <div>
+                <p class="text-center font-semibold text-gray-600 pt-4">
+                  Une multitude de formations (Licences de pilote, qualifications de pilote et stages instructeur)
+                </p>
+              </div>
+            </div>
+            <div class="md:w-1/3">
+              <div>
+                <img src="assets/icons/Tools.svg" alt="" class="mx-auto object-center h-24 w-24">
+              </div>
+              <div>
+                <p class="text-center font-semibold text-gray-600 pt-4">
+                  Un contrat de maintenance sur chacun de nos nos appareils afin de garantir une sécurité maximale.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="py-24 bg-white">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="lg:text-center">
+          <h3
+            class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-eatis-secondary sm:text-4xl sm:leading-10">
+            La flotte EATIS Flight Academy
+          </h3>
+          <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+            L’école de pilotage EATIS Flight Academy dispose d’une flotte récente de 10 avions faisant l’objet d’un
+            contrat de maintenance dont nous sommes les donneurs d’ordre garantissant ainsi un niveau de sécurité
+            maximum.
+          </p>
+        </div>
+
+        <div class="max-w-screen-xl mx-auto mt-10">
+
+          <div class="text-gray-600 flex flex-wrap -m-4 mt-10">
+            <div class="p-4 lg:w-1/2 md:w-1/2 mx-auto">
+              <div class="h-full flex flex-col items-center text-center bg-gray-100 shadow-2xl">
+                <img alt="team" class="flex-shrink-0 w-full  h-96 object-cover object-center mb-1"
+                  src="assets/images/planes/DA_42_3.jpg">
+                <div class="w-full p-2">
+                  <h2 class="title-font font-bold text-lg text-eatis-secondary">Avions DA 42 NG et VI (bimoteur)</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/2 md:w-1/2 mx-auto">
+              <div class="h-full flex flex-col items-center text-center bg-gray-100 shadow-2xl">
+                <img alt="team" class="flex-shrink-0 w-full  h-96 object-cover object-center mb-1"
+                  src="assets/images/planes/DA_40_2.jpg">
+                <div class="w-full p-2">
+                  <h2 class="title-font font-bold text-lg text-eatis-secondary">Avions DA40 TDI et NG</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/2 md:w-1/2 mx-auto">
+              <div class="h-full flex flex-col items-center text-center bg-gray-100 shadow-2xl">
+                <img alt="team" class="flex-shrink-0 w-full  h-96 object-cover object-center mb-1"
+                  src="assets/images/planes/CAP-10C.jpg">
+                <div class="w-full p-2">
+                  <h2 class="title-font font-bold text-lg text-eatis-secondary">CAP 10</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/2 md:w-1/2  mx-auto">
+              <div class="h-full flex flex-col items-center text-center bg-gray-100 shadow-2xl">
+                <img alt="team" class="flex-shrink-0 w-full h-96 object-cover object-center mb-1"
+                src="assets/images/planes/honda_jet_2.jpg">
+                <div class="w-full p-2">
+                  <h2 class="title-font font-bold text-lg text-eatis-secondary">CAP 10</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="py-24 bg-eatis-secondary">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:text-center">
+        </div>
+
+        <div class="max-w-screen-xl mx-auto mt-10">
+
+          <div class="flex flex-wrap">
+            <div class="w-5/6 sm:w-1/2">
+
+              <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl sm:leading-10">
+                Les simulateurs EATIS Flight Academy
+              </h3>
+
+              <p class="mt-4 max-w-2xl text-xl leading-7 font-semibold text-gray-200 lg:mx-auto">
+                De la licence PPL aux prise de commande comme pilote de ligne d’un Airbus A320, les simulateurs de
+                l’école Eatis
+                Flight
+                Academy restituent les conditions réelles d’un vol et reproduisent différents types de cockpits.
+              </p>
+
+              <p class="mt-4 pr-5 max-w-2xl text-xl leading-7 font-semibold text-gray-200 lg:mx-auto">
+                Les appareils et les instruments y sont entièrement paramétrables et permettent principalement
+                l’assimilation des
+                procédures de vol aux instruments et de se préparer aux situations d’urgence.
+              </p>
+              <br>
+
+            </div>
+
+            <div class="w-full sm:w-1/2">
+              <img src="assets/images/simulators/ALX.jpg" alt="">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="max-w-screen-xl mx-auto mt-10">
+
+          <div class="text-gray-600 flex flex-wrap -m-4 mt-10">
+            <div class="p-4 lg:w-1/3 md:w-1/2 sm:w-1/2 mx-auto">
+              <div class="h-full flex flex-col items-center text-center bg-gray-100 shadow-2xl">
+                <img alt="team" class="flex-shrink-0 w-full h-56 object-cover object-center mb-1"
+                  src="assets/images/simulators/AL50_353_314-1.jpg">
+                <div class="w-full p-2">
+                  <h2 class="title-font font-bold text-lg text-eatis-secondary">AL50</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/3 md:w-1/2 sm:w-1/2 mx-auto">
+              <div class="h-full flex flex-col items-center text-center bg-gray-100 shadow-2xl">
+                <img alt="team" class="flex-shrink-0 w-full h-56 object-cover object-center mb-1"
+                  src="assets/images/simulators/AL_200_DA_42.png">
+                <div class="w-full p-2">
+                  <h2 class="title-font font-bold text-lg text-eatis-secondary">AL200 DA42 FNPT II</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/3 md:w-1/2 sm:w-1/2 mx-auto">
+              <div class="h-full flex flex-col items-center text-center bg-gray-100 shadow-2xl">
+                <img alt="team" class="flex-shrink-0 w-full h-56 object-cover object-center mb-1"
+                  src="assets/images/simulators/ALX_353_314.jpg">
+                <div class="w-full p-2">
+                  <h2 class="title-font font-bold text-lg text-eatis-secondary">ALX Medium Jet</h2>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+  </section>
+
+  <section>
+    <div class="py-24 bg-white">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:text-center">
+          <h3
+            class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-eatis-secondary sm:text-4xl sm:leading-10">
+            L'équipe EATIS Flight Academy
+          </h3>
+          <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+            L’école de pilotage EATIS Flight Academy, c'est avant tout une équipe de professionnels dotée d'une grande
+            expérience permettant de délivrer une formation concrète et de grande qualité.
+          </p>
+        </div>
+
+        <div class="text-gray-600 flex flex-wrap -m-4 mt-10">
+          <div class="p-4 lg:w-1/3 md:w-1/2 sm:w-1/2 mx-auto">
+            <div
+              class="h-full flex flex-col items-center text-center bg-white shadow-2xl border-4 border-eatis-secondary border-opacity-75">
+              <img alt="team" class="flex-shrink-0  w-full h-56 object-cover object-center mb-4"
+                src="assets/images/avatars/Didier-Follenius-3.jpg">
+              <div class="w-full">
+                <h2 class="title-font font-semibold text-lg text-eatis-secondary">Didier Follenius</h2>
+                <h3 class="mb-3 text-eatis-secondary font-bold">Président</h3>
+                <h3 class="mb-3 text-eatis-secondary font-bold">Qualifications : FI - CRI - IRI - ME - FE - IRE</h3>
+                <div class="">
+                  <img src="assets/icons/france.svg" alt="" class="inline-block  h-8 object-contain">
+                  <img src="assets/icons/germany.svg" alt="" class="inline-block object-contain h-8">
+                  <img src="assets/icons/united-kingdom.svg" alt="" class="inline-block object-contain h-8">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3 md:w-1/2 sm:w-1/2 mx-auto">
+            <div
+              class="h-full flex flex-col items-center text-center bg-white shadow-2xl border-4 border-eatis-secondary border-opacity-75">
+              <img alt="team" class="flex-shrink-0  w-full h-56 object-cover object-center mb-4"
+                src="assets/images/avatars/Hubert_Arnould.jpg">
+              <div class="w-full">
+                <h2 class="title-font font-semibold text-lg text-eatis-secondary">Hubert Arnould</h2>
+                <h3 class="mb-3 text-eatis-secondary font-bold">Responsable de la navigabilité des aéronefs</h3>
+                <div class="">
+                  <img src="assets/icons/france.svg" alt="" class="inline-block object-contain h-8">
+                  <img src="assets/icons/germany.svg" alt="" class="inline-block object-contain h-8">
+                  <img src="assets/icons/united-kingdom.svg" alt="" class="inline-block object-contain h-8">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3 md:w-1/2 sm:w-1/2 mx-auto">
+            <div
+              class="h-full flex flex-col items-center text-center bg-white shadow-2xl border-4 border-eatis-secondary border-opacity-75">
+              <img alt="team" class="flex-shrink-0  w-full h-56 object-cover object-center mb-4"
+                src="assets/images/avatars/raphael_hegmann.jpg">
+              <div class="w-full ">
+                <h2 class="title-font font-semibold text-lg text-eatis-secondary">Raphaël HEGMANN</h2>
+                <h3 class="mb-3 text-eatis-secondary font-bold">Responsable d'exploitation et de conformité (CMM)</h3>
+                <h3 class="mb-3 text-eatis-secondary font-bold">Qualifications : CPL - IR/ME - FI/TKI</h3>
+                <div class="">
+                  <img src="assets/icons/france.svg" alt="" class="inline-block object-contain h-8">
+                  <img src="assets/icons/germany.svg" alt="" class="inline-block object-contain h-8">
+                  <img src="assets/icons/united-kingdom.svg" alt="" class="inline-block object-contain h-8">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="py-24 bg-white">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:text-center">
+          <h3
+            class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-eatis-secondary sm:text-4xl sm:leading-10">
+            Les instructeurs EATIS Flight Academy
+          </h3>
+          <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+            Avec des milliers d'heures de vol à leur actif et une grande expérience dans de véritables situations de vol
+            les instructeurs EATIS Flight Academy vous transmettront leur savoir tout au long de vos formations.
+          </p>
+        </div>
+
+        <div class="text-gray-600 flex flex-wrap -m-4 mt-10">
+          <div class="p-4 lg:w-1/3 md:w-1/2 sm:w-1/2 mx-auto">
+            <div
+              class="h-full flex flex-col items-center text-center bg-white shadow-2xl border-4 border-eatis-secondary border-opacity-75">
+              <img alt="team" class="flex-shrink-0  w-full h-56 object-cover object-center mb-4"
+                src="assets/images/avatars/didier_crouzery.jpg">
+              <div class="w-full">
+                <h2 class="title-font font-semibold text-lg text-white">Didier CROUZERY</h2>
+                <h3 class="mb-3 text-eatis-secondary font-bold">Responsable pédagogique (HT)</h3>
+                <h3 class="mb-3 text-eatis-secondary font-bold">QT HA 420/B90/200 - FI - IRI - CRI - TRI - FE - CRE -
+                  TRE - MCCI -
+                  FII</h3>
+                <h3 class="mb-3 text-eatis-secondary font-bold">Heures de vol : 10 100 (SFI: 12 000 heures)</h3>
+                <div class="">
+                  <img src="assets/icons/france.svg" alt="" class="inline-block object-contain h-8">
+                  <img src="assets/icons/united-kingdom.svg" alt="" class="inline-block object-contain h-8">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3 md:w-1/2 sm:w-1/2 mx-auto">
+            <div
+              class="h-full flex flex-col items-center text-center bg-white shadow-2xl border-4 border-eatis-secondary border-opacity-75">
+              <img alt="team" class="flex-shrink-0  w-full h-56 object-cover object-center mb-4"
+                src="assets/images/avatars/franck_andruch.jpg">
+              <div class="w-full">
+                <h2 class="title-font font-semibold text-lg text-white">Franck Andruch</h2>
+                <h3 class="mb-3 text-eatis-secondary font-bold">Pilote Instructeur</h3>
+                <h3 class="mb-3 text-eatis-secondary font-bold">Qualifications : CPL - IRME - FI- CRI- IRI - MCCI- TRI
+                </h3>
+                <h3 class="mb-3 text-eatis-secondary font-bold">Heures de vol : 7 500</h3>
+                <div class="">
+                  <img src="assets/icons/france.svg" alt="" class="inline-block object-contain h-8">
+                  <img src="assets/icons/united-kingdom.svg" alt="" class="inline-block object-contain h-8">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3 md:w-1/2 sm:w-1/2 mx-auto">
+            <div
+              class="h-full flex flex-col items-center text-center bg-white shadow-2xl border-4 border-eatis-secondary border-opacity-75">
+              <img alt="team" class="flex-shrink-0  w-full h-56 object-cover object-center mb-4"
+                src="assets/images/avatars/mathieu_monin-1.jpg">
+              <div class="w-full ">
+                <h2 class="title-font font-semibold text-lg text-white">Mathieu MONIN</h2>
+                <h3 class="mb-3 text-eatis-secondary font-bold">Pilote Instructeur</h3>
+                <h3 class="mb-3 text-eatis-secondary font-bold">Qualifications : CPL - IR/ME - FI - QT HA 420</h3>
+                <h3 class="mb-3 text-eatis-secondary font-bold">Heures de vol : 1 300</h3>
+                <div class="">
+                  <img src="assets/icons/france.svg" alt="" class="inline-block object-contain h-8">
+                  <img src="assets/icons/united-kingdom.svg" alt="" class="inline-block object-contain h-8">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="bg-eatis-secondary">
+      <div
+        class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+        <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-white sm:text-4xl sm:leading-10">
+          Une question?
+          <br>
+          <span class="text-white">Contactez-nous pour plus d'informations.</span>
+        </h2>
+        <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
+          <div class="inline-flex shadow">
+            <a href="#"
+              class="w-auto bg-white tracking-tight leading-8 text-gray-900 font-extrabold border-b-4 border-eatis-primary hover:border-eatis-primary hover:bg-eatis-primary hover:text-white shadow-md py-2 px-6 inline-flex items-center">
+              Voir nos formations
+            </a>
+          </div>
+          <div class="ml-3 inline-flex shadow">
+            <a href="#"
+              class="w-auto bg-white tracking-tight leading-8 text-gray-900 font-extrabold border-b-4 border-eatis-primary hover:border-eatis-primary hover:bg-eatis-primary hover:text-white shadow-md py-2 px-6 inline-flex items-center">
+              Prendre contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="text-gray-600 body-font relative">
+    <div class="absolute inset-0 bg-gray-100">
+      <iframe scrolling="no" marginheight="0" marginwidth="0"
+        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Route%20de%20l'A%C3%A9roport,%20DR221,%2067960%20Entzheim+(Eatis)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+    <div class="container px-5 py-24 mx-auto flex">
+      <div class="lg:w-1/3 md:w-1/2 bg-white  p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8>
+          <form class=" w-full max-w-lg">
+          <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+              <label class="block uppercase tracking-wide text-eatis-secondary text-xs font-bold mb-2"
+                for="grid-first-name">
+                Prenom
+              </label>
+              <input
+                class="appearance-none block w-full bg-gray-200 text-eatis-secondary border border-red-500 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                id="grid-first-name" type="text" placeholder="Jane">
+              <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+            </div>
+            <div class="w-full md:w-1/2 px-3">
+              <label class="block uppercase tracking-wide text-eatis-secondary text-xs font-bold mb-2"
+                for="grid-last-name">
+                Nom
+              </label>
+              <input
+                class="appearance-none block w-full bg-gray-200 text-eatis-secondary border border-eatis-secondary py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="grid-last-name" type="text" placeholder="Doe">
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+              <label class="block uppercase tracking-wide text-eatis-secondary text-xs font-bold mb-2"
+                for="grid-password">
+                E-mail
+              </label>
+              <input
+                class="appearance-none block w-full bg-gray-200 text-eatis-secondary border border-eatis-secondary py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="email" type="email">
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+              <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                Message
+              </label>
+              <textarea
+                class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                id="message"></textarea>
+            </div>
+          </div>
+          <div class="md:flex md:items-center">
+            <div class="md:w-1/3">
+              <button
+                class="w-auto bg-eatis-primary tracking-tight leading-8 text-white font-bold border-b-4 hover:bg-white hover:text-eatis-primary py-2 px-6 inline-flex items-center">
+                <span class="mx-auto">ENVOYER</span>
+              </button>
+            </div>
+            <div class="md:w-2/3"></div>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="lg:container px-5 py-24 mx-auto">
+      <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto lg:text-center">
+        <img src="assets/icons/Logo-Eatis-blue.svg" class="w-40 lg:ml-0 inline-block w-30 h-30 text-gray-700 mb-8"
+          alt="logo">
+        <p class="leading-relaxed text-lg font-semibold text-gray-800">De la licence privée à la formation
+          professionnelle,
+          EATIS vous forme
+          et vous accompagne dans la réussite de votre projet.
+
+          Nous mettons à la disposition de nos élèves des outils modernes et une équipe expérimentée qui vous
+          emmèneront des bancs de l’école jusque dans le cockpit d’un avion de ligne.
+
+          Humilité, rigueur, excellence et sécurité sont nos devises communes et gage de votre réussite
+        </p>
+        <span class="inline-block h-1 w-10 rounded bg-eatis-primary mt-8 mb-6"></span>
+        <h2 class="text-gray-600 font-bold title-font tracking-wider text-sm">Alexandre SOMMER</h2>
+        <p class="text-gray-600 font-bold ">PRESIDENT EATIS FLIGHT ACADEMY et BUSINESS AVIATION</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-eatis-secondary text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center flex-col">
+      <p class="text-sm text-gray-500 sm:border-gray-200 sm:py-2 sm:mt-0">© 2020
+        Eatis. All rights reserved.<a href="https://www.skeltpoint.com/" class="text-white font-bold ml-1"
+          rel="noopener noreferrer" target="_blank">MADE
+          BY SKELT.</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="../node_modules/slick-carousel/slick/slick.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="../node_modules/slick-carousel/slick/slick.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          setting: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          setting: {
+            slidesToShow: 3
+          }
+        }]
+      });
+    });
+  </script>
+  <script>
+    //Javascript to toggle the menu
+    document.getElementById('nav-toggle').onclick = function () {
+      document.getElementById("nav-content").classList.toggle("hidden");
+    }
+  </script>
+
+</body>
+
+</html>
