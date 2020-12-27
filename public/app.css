@@ -793,11 +793,9 @@ header{
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 2rem;
   margin-left: auto;
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity));
-  width: 2rem;
 }
 
 @media (min-width: 768px) {

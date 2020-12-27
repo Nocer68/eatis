@@ -59,7 +59,7 @@ header{
 }
 
 .scrolling-active .menutoggler{
-  @apply h-8 w-8 inline-flex items-center justify-center text-black md:hidden ml-auto;
+  @apply inline-flex items-center justify-center text-black md:hidden ml-auto;
 }
 
 @tailwind utilities;
