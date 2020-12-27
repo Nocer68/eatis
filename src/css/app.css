@@ -14,6 +14,9 @@ header{
   z-index: 1000;
 }
 
+.navbar{
+  @apply flex items-center py-8 px-4 flex-wrap;
+}
 .lists{
   @apply py-2 px-2 text-white font-semibold uppercase hover:text-eatis-secondary flex lg:inline-flex transition duration-150 ease-in-out;
 }
@@ -24,6 +27,7 @@ header{
 
 .logo{
   @apply fill-current text-white flex;
+  width: 160px;
 }
 
 .menutoggler{
@@ -32,6 +36,11 @@ header{
 /*Apply styles after scroll*/
 .scrolling-active{
   @apply shadow-xl bg-white;
+}
+
+.scrolling-active .navbar{
+  @apply flex items-center py-2 px-4 flex-wrap;
+  transition: padding 0.4s linear;
 }
 
 .scrolling-active .lists{
@@ -45,6 +54,8 @@ header{
 .scrolling-active .logo{
   @apply fill-current text-black flex;
   transition: background-color .4s ease;
+  width: 130px;
+  transition: width .4s ease;
 }
 
 .scrolling-active .menutoggler{
