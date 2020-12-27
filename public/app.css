@@ -580,6 +580,10 @@ video {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header{
   width: 100%;
   position: fixed;
