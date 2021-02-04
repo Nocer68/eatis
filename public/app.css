@@ -2168,6 +2168,11 @@ header{
   border-color: rgba(31, 40, 92, var(--tw-divide-opacity));
 }
 
+.divide-eatis-affaire > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(209, 190, 148, var(--tw-divide-opacity));
+}
+
 .divide-solid > :not([hidden]) ~ :not([hidden]) {
   border-style: solid;
 }
@@ -2800,6 +2805,11 @@ header{
   background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
 }
 
+.bg-eatis-affaire {
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+}
+
 .group:hover .group-hover\:bg-transparent {
   background-color: transparent;
 }
@@ -3246,6 +3256,11 @@ header{
 .group:hover .group-hover\:bg-eatis-info {
   --tw-bg-opacity: 1;
   background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-eatis-affaire {
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
 }
 
 .focus-within\:bg-transparent:focus-within {
@@ -3696,6 +3711,11 @@ header{
   background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
 }
 
+.focus-within\:bg-eatis-affaire:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -4144,6 +4164,11 @@ header{
   background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
 }
 
+.hover\:bg-eatis-affaire:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -4590,6 +4615,11 @@ header{
 .focus\:bg-eatis-info:focus {
   --tw-bg-opacity: 1;
   background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
+}
+
+.focus\:bg-eatis-affaire:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
 }
 
 .bg-none {
@@ -5078,6 +5108,11 @@ header{
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
 }
 
+.from-eatis-affaire {
+  --tw-gradient-from: #d1be94;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+}
+
 .via-transparent {
   --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
 }
@@ -5438,6 +5473,10 @@ header{
   --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
 }
 
+.via-eatis-affaire {
+  --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+}
+
 .to-transparent {
   --tw-gradient-to: transparent;
 }
@@ -5796,6 +5835,10 @@ header{
 
 .to-eatis-info {
   --tw-gradient-to: #1f285c;
+}
+
+.to-eatis-affaire {
+  --tw-gradient-to: #d1be94;
 }
 
 .hover\:from-transparent:hover {
@@ -6248,6 +6291,11 @@ header{
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
 }
 
+.hover\:from-eatis-affaire:hover {
+  --tw-gradient-from: #d1be94;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+}
+
 .hover\:via-transparent:hover {
   --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
 }
@@ -6608,6 +6656,10 @@ header{
   --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
 }
 
+.hover\:via-eatis-affaire:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+}
+
 .hover\:to-transparent:hover {
   --tw-gradient-to: transparent;
 }
@@ -6966,6 +7018,10 @@ header{
 
 .hover\:to-eatis-info:hover {
   --tw-gradient-to: #1f285c;
+}
+
+.hover\:to-eatis-affaire:hover {
+  --tw-gradient-to: #d1be94;
 }
 
 .focus\:from-transparent:focus {
@@ -7418,6 +7474,11 @@ header{
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
 }
 
+.focus\:from-eatis-affaire:focus {
+  --tw-gradient-from: #d1be94;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+}
+
 .focus\:via-transparent:focus {
   --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
 }
@@ -7778,6 +7839,10 @@ header{
   --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
 }
 
+.focus\:via-eatis-affaire:focus {
+  --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+}
+
 .focus\:to-transparent:focus {
   --tw-gradient-to: transparent;
 }
@@ -8136,6 +8201,10 @@ header{
 
 .focus\:to-eatis-info:focus {
   --tw-gradient-to: #1f285c;
+}
+
+.focus\:to-eatis-affaire:focus {
+  --tw-gradient-to: #d1be94;
 }
 
 .bg-opacity-0 {
@@ -8966,6 +9035,11 @@ header{
   border-color: rgba(31, 40, 92, var(--tw-border-opacity));
 }
 
+.border-eatis-affaire {
+  --tw-border-opacity: 1;
+  border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+}
+
 .group:hover .group-hover\:border-transparent {
   border-color: transparent;
 }
@@ -9412,6 +9486,11 @@ header{
 .group:hover .group-hover\:border-eatis-info {
   --tw-border-opacity: 1;
   border-color: rgba(31, 40, 92, var(--tw-border-opacity));
+}
+
+.group:hover .group-hover\:border-eatis-affaire {
+  --tw-border-opacity: 1;
+  border-color: rgba(209, 190, 148, var(--tw-border-opacity));
 }
 
 .focus-within\:border-transparent:focus-within {
@@ -9862,6 +9941,11 @@ header{
   border-color: rgba(31, 40, 92, var(--tw-border-opacity));
 }
 
+.focus-within\:border-eatis-affaire:focus-within {
+  --tw-border-opacity: 1;
+  border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -10310,6 +10394,11 @@ header{
   border-color: rgba(31, 40, 92, var(--tw-border-opacity));
 }
 
+.hover\:border-eatis-affaire:hover {
+  --tw-border-opacity: 1;
+  border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+}
+
 .focus\:border-transparent:focus {
   border-color: transparent;
 }
@@ -10756,6 +10845,11 @@ header{
 .focus\:border-eatis-info:focus {
   --tw-border-opacity: 1;
   border-color: rgba(31, 40, 92, var(--tw-border-opacity));
+}
+
+.focus\:border-eatis-affaire:focus {
+  --tw-border-opacity: 1;
+  border-color: rgba(209, 190, 148, var(--tw-border-opacity));
 }
 
 .border-opacity-0 {
@@ -17693,6 +17787,21 @@ header{
   color: rgba(31, 40, 92, var(--tw-placeholder-opacity));
 }
 
+.placeholder-eatis-affaire::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+}
+
+.placeholder-eatis-affaire:-ms-input-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+}
+
+.placeholder-eatis-affaire::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+}
+
 .focus\:placeholder-transparent:focus::-moz-placeholder {
   color: transparent;
 }
@@ -19035,6 +19144,21 @@ header{
 .focus\:placeholder-eatis-info:focus::placeholder {
   --tw-placeholder-opacity: 1;
   color: rgba(31, 40, 92, var(--tw-placeholder-opacity));
+}
+
+.focus\:placeholder-eatis-affaire:focus::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+}
+
+.focus\:placeholder-eatis-affaire:focus:-ms-input-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+}
+
+.focus\:placeholder-eatis-affaire:focus::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
 }
 
 .placeholder-opacity-0::-moz-placeholder {
@@ -22940,6 +23064,10 @@ header{
   --tw-ring-offset-color: #1f285c;
 }
 
+.ring-offset-eatis-affaire {
+  --tw-ring-offset-color: #d1be94;
+}
+
 .focus-within\:ring-offset-transparent:focus-within {
   --tw-ring-offset-color: transparent;
 }
@@ -23300,6 +23428,10 @@ header{
   --tw-ring-offset-color: #1f285c;
 }
 
+.focus-within\:ring-offset-eatis-affaire:focus-within {
+  --tw-ring-offset-color: #d1be94;
+}
+
 .focus\:ring-offset-transparent:focus {
   --tw-ring-offset-color: transparent;
 }
@@ -23658,6 +23790,10 @@ header{
 
 .focus\:ring-offset-eatis-info:focus {
   --tw-ring-offset-color: #1f285c;
+}
+
+.focus\:ring-offset-eatis-affaire:focus {
+  --tw-ring-offset-color: #d1be94;
 }
 
 .ring-offset-0 {
@@ -24168,6 +24304,11 @@ header{
   --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
 }
 
+.ring-eatis-affaire {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
+}
+
 .focus-within\:ring-transparent:focus-within {
   --tw-ring-color: transparent;
 }
@@ -24616,6 +24757,11 @@ header{
   --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
 }
 
+.focus-within\:ring-eatis-affaire:focus-within {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
+}
+
 .focus\:ring-transparent:focus {
   --tw-ring-color: transparent;
 }
@@ -25062,6 +25208,11 @@ header{
 .focus\:ring-eatis-info:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
+}
+
+.focus\:ring-eatis-affaire:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
 }
 
 .ring-opacity-0 {
@@ -25736,6 +25887,11 @@ header{
   color: rgba(31, 40, 92, var(--tw-text-opacity));
 }
 
+.text-eatis-affaire {
+  --tw-text-opacity: 1;
+  color: rgba(209, 190, 148, var(--tw-text-opacity));
+}
+
 .group:hover .group-hover\:text-transparent {
   color: transparent;
 }
@@ -26182,6 +26338,11 @@ header{
 .group:hover .group-hover\:text-eatis-info {
   --tw-text-opacity: 1;
   color: rgba(31, 40, 92, var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-eatis-affaire {
+  --tw-text-opacity: 1;
+  color: rgba(209, 190, 148, var(--tw-text-opacity));
 }
 
 .focus-within\:text-transparent:focus-within {
@@ -26632,6 +26793,11 @@ header{
   color: rgba(31, 40, 92, var(--tw-text-opacity));
 }
 
+.focus-within\:text-eatis-affaire:focus-within {
+  --tw-text-opacity: 1;
+  color: rgba(209, 190, 148, var(--tw-text-opacity));
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -27080,6 +27246,11 @@ header{
   color: rgba(31, 40, 92, var(--tw-text-opacity));
 }
 
+.hover\:text-eatis-affaire:hover {
+  --tw-text-opacity: 1;
+  color: rgba(209, 190, 148, var(--tw-text-opacity));
+}
+
 .focus\:text-transparent:focus {
   color: transparent;
 }
@@ -27526,6 +27697,11 @@ header{
 .focus\:text-eatis-info:focus {
   --tw-text-opacity: 1;
   color: rgba(31, 40, 92, var(--tw-text-opacity));
+}
+
+.focus\:text-eatis-affaire:focus {
+  --tw-text-opacity: 1;
+  color: rgba(209, 190, 148, var(--tw-text-opacity));
 }
 
 .text-opacity-0 {
@@ -33846,6 +34022,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-divide-opacity));
   }
 
+  .sm\:divide-eatis-affaire > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-divide-opacity));
+  }
+
   .sm\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
   }
@@ -34478,6 +34659,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .sm\:bg-eatis-affaire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .group:hover .sm\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -34924,6 +35110,11 @@ header{
   .group:hover .sm\:group-hover\:bg-eatis-info {
     --tw-bg-opacity: 1;
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-eatis-affaire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
   }
 
   .sm\:focus-within\:bg-transparent:focus-within {
@@ -35374,6 +35565,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .sm\:focus-within\:bg-eatis-affaire:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -35822,6 +36018,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .sm\:hover\:bg-eatis-affaire:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -36268,6 +36469,11 @@ header{
   .sm\:focus\:bg-eatis-info:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-eatis-affaire:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
   }
 
   .sm\:bg-none {
@@ -36756,6 +36962,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .sm\:from-eatis-affaire {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .sm\:via-transparent {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -37116,6 +37327,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .sm\:via-eatis-affaire {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .sm\:to-transparent {
     --tw-gradient-to: transparent;
   }
@@ -37474,6 +37689,10 @@ header{
 
   .sm\:to-eatis-info {
     --tw-gradient-to: #1f285c;
+  }
+
+  .sm\:to-eatis-affaire {
+    --tw-gradient-to: #d1be94;
   }
 
   .sm\:hover\:from-transparent:hover {
@@ -37926,6 +38145,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .sm\:hover\:from-eatis-affaire:hover {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .sm\:hover\:via-transparent:hover {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -38286,6 +38510,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .sm\:hover\:via-eatis-affaire:hover {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .sm\:hover\:to-transparent:hover {
     --tw-gradient-to: transparent;
   }
@@ -38644,6 +38872,10 @@ header{
 
   .sm\:hover\:to-eatis-info:hover {
     --tw-gradient-to: #1f285c;
+  }
+
+  .sm\:hover\:to-eatis-affaire:hover {
+    --tw-gradient-to: #d1be94;
   }
 
   .sm\:focus\:from-transparent:focus {
@@ -39096,6 +39328,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .sm\:focus\:from-eatis-affaire:focus {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .sm\:focus\:via-transparent:focus {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -39456,6 +39693,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .sm\:focus\:via-eatis-affaire:focus {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .sm\:focus\:to-transparent:focus {
     --tw-gradient-to: transparent;
   }
@@ -39814,6 +40055,10 @@ header{
 
   .sm\:focus\:to-eatis-info:focus {
     --tw-gradient-to: #1f285c;
+  }
+
+  .sm\:focus\:to-eatis-affaire:focus {
+    --tw-gradient-to: #d1be94;
   }
 
   .sm\:bg-opacity-0 {
@@ -40644,6 +40889,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .sm\:border-eatis-affaire {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .group:hover .sm\:group-hover\:border-transparent {
     border-color: transparent;
   }
@@ -41090,6 +41340,11 @@ header{
   .group:hover .sm\:group-hover\:border-eatis-info {
     --tw-border-opacity: 1;
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:border-eatis-affaire {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
   }
 
   .sm\:focus-within\:border-transparent:focus-within {
@@ -41540,6 +41795,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .sm\:focus-within\:border-eatis-affaire:focus-within {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -41988,6 +42248,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .sm\:hover\:border-eatis-affaire:hover {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -42434,6 +42699,11 @@ header{
   .sm\:focus\:border-eatis-info:focus {
     --tw-border-opacity: 1;
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
+  }
+
+  .sm\:focus\:border-eatis-affaire:focus {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
   }
 
   .sm\:border-opacity-0 {
@@ -49371,6 +49641,21 @@ header{
     color: rgba(31, 40, 92, var(--tw-placeholder-opacity));
   }
 
+  .sm\:placeholder-eatis-affaire::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:placeholder-eatis-affaire:-ms-input-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:placeholder-eatis-affaire::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
   .sm\:focus\:placeholder-transparent:focus::-moz-placeholder {
     color: transparent;
   }
@@ -50713,6 +50998,21 @@ header{
   .sm\:focus\:placeholder-eatis-info:focus::placeholder {
     --tw-placeholder-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-eatis-affaire:focus::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-eatis-affaire:focus:-ms-input-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-eatis-affaire:focus::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
   }
 
   .sm\:placeholder-opacity-0::-moz-placeholder {
@@ -54605,6 +54905,10 @@ header{
     --tw-ring-offset-color: #1f285c;
   }
 
+  .sm\:ring-offset-eatis-affaire {
+    --tw-ring-offset-color: #d1be94;
+  }
+
   .sm\:focus-within\:ring-offset-transparent:focus-within {
     --tw-ring-offset-color: transparent;
   }
@@ -54965,6 +55269,10 @@ header{
     --tw-ring-offset-color: #1f285c;
   }
 
+  .sm\:focus-within\:ring-offset-eatis-affaire:focus-within {
+    --tw-ring-offset-color: #d1be94;
+  }
+
   .sm\:focus\:ring-offset-transparent:focus {
     --tw-ring-offset-color: transparent;
   }
@@ -55323,6 +55631,10 @@ header{
 
   .sm\:focus\:ring-offset-eatis-info:focus {
     --tw-ring-offset-color: #1f285c;
+  }
+
+  .sm\:focus\:ring-offset-eatis-affaire:focus {
+    --tw-ring-offset-color: #d1be94;
   }
 
   .sm\:ring-offset-0 {
@@ -55833,6 +56145,11 @@ header{
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
   }
 
+  .sm\:ring-eatis-affaire {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
+  }
+
   .sm\:focus-within\:ring-transparent:focus-within {
     --tw-ring-color: transparent;
   }
@@ -56281,6 +56598,11 @@ header{
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
   }
 
+  .sm\:focus-within\:ring-eatis-affaire:focus-within {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
+  }
+
   .sm\:focus\:ring-transparent:focus {
     --tw-ring-color: transparent;
   }
@@ -56727,6 +57049,11 @@ header{
   .sm\:focus\:ring-eatis-info:focus {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
+  }
+
+  .sm\:focus\:ring-eatis-affaire:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
   }
 
   .sm\:ring-opacity-0 {
@@ -57401,6 +57728,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .sm\:text-eatis-affaire {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .group:hover .sm\:group-hover\:text-transparent {
     color: transparent;
   }
@@ -57847,6 +58179,11 @@ header{
   .group:hover .sm\:group-hover\:text-eatis-info {
     --tw-text-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-text-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:text-eatis-affaire {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
   }
 
   .sm\:focus-within\:text-transparent:focus-within {
@@ -58297,6 +58634,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .sm\:focus-within\:text-eatis-affaire:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -58745,6 +59087,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .sm\:hover\:text-eatis-affaire:hover {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .sm\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -59191,6 +59538,11 @@ header{
   .sm\:focus\:text-eatis-info:focus {
     --tw-text-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-text-opacity));
+  }
+
+  .sm\:focus\:text-eatis-affaire:focus {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
   }
 
   .sm\:text-opacity-0 {
@@ -65446,6 +65798,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-divide-opacity));
   }
 
+  .md\:divide-eatis-affaire > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-divide-opacity));
+  }
+
   .md\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
   }
@@ -66078,6 +66435,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .md\:bg-eatis-affaire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .group:hover .md\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -66524,6 +66886,11 @@ header{
   .group:hover .md\:group-hover\:bg-eatis-info {
     --tw-bg-opacity: 1;
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-eatis-affaire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
   }
 
   .md\:focus-within\:bg-transparent:focus-within {
@@ -66974,6 +67341,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .md\:focus-within\:bg-eatis-affaire:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -67422,6 +67794,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .md\:hover\:bg-eatis-affaire:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -67868,6 +68245,11 @@ header{
   .md\:focus\:bg-eatis-info:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-eatis-affaire:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
   }
 
   .md\:bg-none {
@@ -68356,6 +68738,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .md\:from-eatis-affaire {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .md\:via-transparent {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -68716,6 +69103,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .md\:via-eatis-affaire {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .md\:to-transparent {
     --tw-gradient-to: transparent;
   }
@@ -69074,6 +69465,10 @@ header{
 
   .md\:to-eatis-info {
     --tw-gradient-to: #1f285c;
+  }
+
+  .md\:to-eatis-affaire {
+    --tw-gradient-to: #d1be94;
   }
 
   .md\:hover\:from-transparent:hover {
@@ -69526,6 +69921,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .md\:hover\:from-eatis-affaire:hover {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .md\:hover\:via-transparent:hover {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -69886,6 +70286,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .md\:hover\:via-eatis-affaire:hover {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .md\:hover\:to-transparent:hover {
     --tw-gradient-to: transparent;
   }
@@ -70244,6 +70648,10 @@ header{
 
   .md\:hover\:to-eatis-info:hover {
     --tw-gradient-to: #1f285c;
+  }
+
+  .md\:hover\:to-eatis-affaire:hover {
+    --tw-gradient-to: #d1be94;
   }
 
   .md\:focus\:from-transparent:focus {
@@ -70696,6 +71104,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .md\:focus\:from-eatis-affaire:focus {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .md\:focus\:via-transparent:focus {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -71056,6 +71469,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .md\:focus\:via-eatis-affaire:focus {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .md\:focus\:to-transparent:focus {
     --tw-gradient-to: transparent;
   }
@@ -71414,6 +71831,10 @@ header{
 
   .md\:focus\:to-eatis-info:focus {
     --tw-gradient-to: #1f285c;
+  }
+
+  .md\:focus\:to-eatis-affaire:focus {
+    --tw-gradient-to: #d1be94;
   }
 
   .md\:bg-opacity-0 {
@@ -72244,6 +72665,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .md\:border-eatis-affaire {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .group:hover .md\:group-hover\:border-transparent {
     border-color: transparent;
   }
@@ -72690,6 +73116,11 @@ header{
   .group:hover .md\:group-hover\:border-eatis-info {
     --tw-border-opacity: 1;
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
+  }
+
+  .group:hover .md\:group-hover\:border-eatis-affaire {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
   }
 
   .md\:focus-within\:border-transparent:focus-within {
@@ -73140,6 +73571,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .md\:focus-within\:border-eatis-affaire:focus-within {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -73588,6 +74024,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .md\:hover\:border-eatis-affaire:hover {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -74034,6 +74475,11 @@ header{
   .md\:focus\:border-eatis-info:focus {
     --tw-border-opacity: 1;
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
+  }
+
+  .md\:focus\:border-eatis-affaire:focus {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
   }
 
   .md\:border-opacity-0 {
@@ -80971,6 +81417,21 @@ header{
     color: rgba(31, 40, 92, var(--tw-placeholder-opacity));
   }
 
+  .md\:placeholder-eatis-affaire::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-eatis-affaire:-ms-input-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-eatis-affaire::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
   .md\:focus\:placeholder-transparent:focus::-moz-placeholder {
     color: transparent;
   }
@@ -82313,6 +82774,21 @@ header{
   .md\:focus\:placeholder-eatis-info:focus::placeholder {
     --tw-placeholder-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-eatis-affaire:focus::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-eatis-affaire:focus:-ms-input-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-eatis-affaire:focus::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
   }
 
   .md\:placeholder-opacity-0::-moz-placeholder {
@@ -86205,6 +86681,10 @@ header{
     --tw-ring-offset-color: #1f285c;
   }
 
+  .md\:ring-offset-eatis-affaire {
+    --tw-ring-offset-color: #d1be94;
+  }
+
   .md\:focus-within\:ring-offset-transparent:focus-within {
     --tw-ring-offset-color: transparent;
   }
@@ -86565,6 +87045,10 @@ header{
     --tw-ring-offset-color: #1f285c;
   }
 
+  .md\:focus-within\:ring-offset-eatis-affaire:focus-within {
+    --tw-ring-offset-color: #d1be94;
+  }
+
   .md\:focus\:ring-offset-transparent:focus {
     --tw-ring-offset-color: transparent;
   }
@@ -86923,6 +87407,10 @@ header{
 
   .md\:focus\:ring-offset-eatis-info:focus {
     --tw-ring-offset-color: #1f285c;
+  }
+
+  .md\:focus\:ring-offset-eatis-affaire:focus {
+    --tw-ring-offset-color: #d1be94;
   }
 
   .md\:ring-offset-0 {
@@ -87433,6 +87921,11 @@ header{
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
   }
 
+  .md\:ring-eatis-affaire {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
+  }
+
   .md\:focus-within\:ring-transparent:focus-within {
     --tw-ring-color: transparent;
   }
@@ -87881,6 +88374,11 @@ header{
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
   }
 
+  .md\:focus-within\:ring-eatis-affaire:focus-within {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
+  }
+
   .md\:focus\:ring-transparent:focus {
     --tw-ring-color: transparent;
   }
@@ -88327,6 +88825,11 @@ header{
   .md\:focus\:ring-eatis-info:focus {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
+  }
+
+  .md\:focus\:ring-eatis-affaire:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
   }
 
   .md\:ring-opacity-0 {
@@ -89001,6 +89504,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .md\:text-eatis-affaire {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .group:hover .md\:group-hover\:text-transparent {
     color: transparent;
   }
@@ -89447,6 +89955,11 @@ header{
   .group:hover .md\:group-hover\:text-eatis-info {
     --tw-text-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-text-opacity));
+  }
+
+  .group:hover .md\:group-hover\:text-eatis-affaire {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
   }
 
   .md\:focus-within\:text-transparent:focus-within {
@@ -89897,6 +90410,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .md\:focus-within\:text-eatis-affaire:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -90345,6 +90863,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .md\:hover\:text-eatis-affaire:hover {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .md\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -90791,6 +91314,11 @@ header{
   .md\:focus\:text-eatis-info:focus {
     --tw-text-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-text-opacity));
+  }
+
+  .md\:focus\:text-eatis-affaire:focus {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
   }
 
   .md\:text-opacity-0 {
@@ -97046,6 +97574,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-divide-opacity));
   }
 
+  .lg\:divide-eatis-affaire > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-divide-opacity));
+  }
+
   .lg\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
   }
@@ -97678,6 +98211,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .lg\:bg-eatis-affaire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .group:hover .lg\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -98124,6 +98662,11 @@ header{
   .group:hover .lg\:group-hover\:bg-eatis-info {
     --tw-bg-opacity: 1;
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-eatis-affaire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
   }
 
   .lg\:focus-within\:bg-transparent:focus-within {
@@ -98574,6 +99117,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .lg\:focus-within\:bg-eatis-affaire:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -99022,6 +99570,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .lg\:hover\:bg-eatis-affaire:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -99468,6 +100021,11 @@ header{
   .lg\:focus\:bg-eatis-info:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-eatis-affaire:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
   }
 
   .lg\:bg-none {
@@ -99956,6 +100514,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .lg\:from-eatis-affaire {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .lg\:via-transparent {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -100316,6 +100879,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .lg\:via-eatis-affaire {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .lg\:to-transparent {
     --tw-gradient-to: transparent;
   }
@@ -100674,6 +101241,10 @@ header{
 
   .lg\:to-eatis-info {
     --tw-gradient-to: #1f285c;
+  }
+
+  .lg\:to-eatis-affaire {
+    --tw-gradient-to: #d1be94;
   }
 
   .lg\:hover\:from-transparent:hover {
@@ -101126,6 +101697,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .lg\:hover\:from-eatis-affaire:hover {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .lg\:hover\:via-transparent:hover {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -101486,6 +102062,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .lg\:hover\:via-eatis-affaire:hover {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .lg\:hover\:to-transparent:hover {
     --tw-gradient-to: transparent;
   }
@@ -101844,6 +102424,10 @@ header{
 
   .lg\:hover\:to-eatis-info:hover {
     --tw-gradient-to: #1f285c;
+  }
+
+  .lg\:hover\:to-eatis-affaire:hover {
+    --tw-gradient-to: #d1be94;
   }
 
   .lg\:focus\:from-transparent:focus {
@@ -102296,6 +102880,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .lg\:focus\:from-eatis-affaire:focus {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .lg\:focus\:via-transparent:focus {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -102656,6 +103245,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .lg\:focus\:via-eatis-affaire:focus {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .lg\:focus\:to-transparent:focus {
     --tw-gradient-to: transparent;
   }
@@ -103014,6 +103607,10 @@ header{
 
   .lg\:focus\:to-eatis-info:focus {
     --tw-gradient-to: #1f285c;
+  }
+
+  .lg\:focus\:to-eatis-affaire:focus {
+    --tw-gradient-to: #d1be94;
   }
 
   .lg\:bg-opacity-0 {
@@ -103844,6 +104441,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .lg\:border-eatis-affaire {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .group:hover .lg\:group-hover\:border-transparent {
     border-color: transparent;
   }
@@ -104290,6 +104892,11 @@ header{
   .group:hover .lg\:group-hover\:border-eatis-info {
     --tw-border-opacity: 1;
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:border-eatis-affaire {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
   }
 
   .lg\:focus-within\:border-transparent:focus-within {
@@ -104740,6 +105347,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .lg\:focus-within\:border-eatis-affaire:focus-within {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -105188,6 +105800,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .lg\:hover\:border-eatis-affaire:hover {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -105634,6 +106251,11 @@ header{
   .lg\:focus\:border-eatis-info:focus {
     --tw-border-opacity: 1;
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
+  }
+
+  .lg\:focus\:border-eatis-affaire:focus {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
   }
 
   .lg\:border-opacity-0 {
@@ -112571,6 +113193,21 @@ header{
     color: rgba(31, 40, 92, var(--tw-placeholder-opacity));
   }
 
+  .lg\:placeholder-eatis-affaire::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:placeholder-eatis-affaire:-ms-input-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:placeholder-eatis-affaire::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
   .lg\:focus\:placeholder-transparent:focus::-moz-placeholder {
     color: transparent;
   }
@@ -113913,6 +114550,21 @@ header{
   .lg\:focus\:placeholder-eatis-info:focus::placeholder {
     --tw-placeholder-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-eatis-affaire:focus::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-eatis-affaire:focus:-ms-input-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-eatis-affaire:focus::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
   }
 
   .lg\:placeholder-opacity-0::-moz-placeholder {
@@ -117805,6 +118457,10 @@ header{
     --tw-ring-offset-color: #1f285c;
   }
 
+  .lg\:ring-offset-eatis-affaire {
+    --tw-ring-offset-color: #d1be94;
+  }
+
   .lg\:focus-within\:ring-offset-transparent:focus-within {
     --tw-ring-offset-color: transparent;
   }
@@ -118165,6 +118821,10 @@ header{
     --tw-ring-offset-color: #1f285c;
   }
 
+  .lg\:focus-within\:ring-offset-eatis-affaire:focus-within {
+    --tw-ring-offset-color: #d1be94;
+  }
+
   .lg\:focus\:ring-offset-transparent:focus {
     --tw-ring-offset-color: transparent;
   }
@@ -118523,6 +119183,10 @@ header{
 
   .lg\:focus\:ring-offset-eatis-info:focus {
     --tw-ring-offset-color: #1f285c;
+  }
+
+  .lg\:focus\:ring-offset-eatis-affaire:focus {
+    --tw-ring-offset-color: #d1be94;
   }
 
   .lg\:ring-offset-0 {
@@ -119033,6 +119697,11 @@ header{
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
   }
 
+  .lg\:ring-eatis-affaire {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
+  }
+
   .lg\:focus-within\:ring-transparent:focus-within {
     --tw-ring-color: transparent;
   }
@@ -119481,6 +120150,11 @@ header{
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
   }
 
+  .lg\:focus-within\:ring-eatis-affaire:focus-within {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
+  }
+
   .lg\:focus\:ring-transparent:focus {
     --tw-ring-color: transparent;
   }
@@ -119927,6 +120601,11 @@ header{
   .lg\:focus\:ring-eatis-info:focus {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
+  }
+
+  .lg\:focus\:ring-eatis-affaire:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
   }
 
   .lg\:ring-opacity-0 {
@@ -120601,6 +121280,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .lg\:text-eatis-affaire {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .group:hover .lg\:group-hover\:text-transparent {
     color: transparent;
   }
@@ -121047,6 +121731,11 @@ header{
   .group:hover .lg\:group-hover\:text-eatis-info {
     --tw-text-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-text-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:text-eatis-affaire {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
   }
 
   .lg\:focus-within\:text-transparent:focus-within {
@@ -121497,6 +122186,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .lg\:focus-within\:text-eatis-affaire:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -121945,6 +122639,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .lg\:hover\:text-eatis-affaire:hover {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .lg\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -122391,6 +123090,11 @@ header{
   .lg\:focus\:text-eatis-info:focus {
     --tw-text-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-text-opacity));
+  }
+
+  .lg\:focus\:text-eatis-affaire:focus {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
   }
 
   .lg\:text-opacity-0 {
@@ -128646,6 +129350,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-divide-opacity));
   }
 
+  .xl\:divide-eatis-affaire > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-divide-opacity));
+  }
+
   .xl\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
   }
@@ -129278,6 +129987,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .xl\:bg-eatis-affaire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .group:hover .xl\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -129724,6 +130438,11 @@ header{
   .group:hover .xl\:group-hover\:bg-eatis-info {
     --tw-bg-opacity: 1;
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-eatis-affaire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
   }
 
   .xl\:focus-within\:bg-transparent:focus-within {
@@ -130174,6 +130893,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .xl\:focus-within\:bg-eatis-affaire:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -130622,6 +131346,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .xl\:hover\:bg-eatis-affaire:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -131068,6 +131797,11 @@ header{
   .xl\:focus\:bg-eatis-info:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-eatis-affaire:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
   }
 
   .xl\:bg-none {
@@ -131556,6 +132290,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .xl\:from-eatis-affaire {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .xl\:via-transparent {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -131916,6 +132655,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .xl\:via-eatis-affaire {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .xl\:to-transparent {
     --tw-gradient-to: transparent;
   }
@@ -132274,6 +133017,10 @@ header{
 
   .xl\:to-eatis-info {
     --tw-gradient-to: #1f285c;
+  }
+
+  .xl\:to-eatis-affaire {
+    --tw-gradient-to: #d1be94;
   }
 
   .xl\:hover\:from-transparent:hover {
@@ -132726,6 +133473,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .xl\:hover\:from-eatis-affaire:hover {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .xl\:hover\:via-transparent:hover {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -133086,6 +133838,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .xl\:hover\:via-eatis-affaire:hover {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .xl\:hover\:to-transparent:hover {
     --tw-gradient-to: transparent;
   }
@@ -133444,6 +134200,10 @@ header{
 
   .xl\:hover\:to-eatis-info:hover {
     --tw-gradient-to: #1f285c;
+  }
+
+  .xl\:hover\:to-eatis-affaire:hover {
+    --tw-gradient-to: #d1be94;
   }
 
   .xl\:focus\:from-transparent:focus {
@@ -133896,6 +134656,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .xl\:focus\:from-eatis-affaire:focus {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .xl\:focus\:via-transparent:focus {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -134256,6 +135021,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .xl\:focus\:via-eatis-affaire:focus {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .xl\:focus\:to-transparent:focus {
     --tw-gradient-to: transparent;
   }
@@ -134614,6 +135383,10 @@ header{
 
   .xl\:focus\:to-eatis-info:focus {
     --tw-gradient-to: #1f285c;
+  }
+
+  .xl\:focus\:to-eatis-affaire:focus {
+    --tw-gradient-to: #d1be94;
   }
 
   .xl\:bg-opacity-0 {
@@ -135444,6 +136217,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .xl\:border-eatis-affaire {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .group:hover .xl\:group-hover\:border-transparent {
     border-color: transparent;
   }
@@ -135890,6 +136668,11 @@ header{
   .group:hover .xl\:group-hover\:border-eatis-info {
     --tw-border-opacity: 1;
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:border-eatis-affaire {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
   }
 
   .xl\:focus-within\:border-transparent:focus-within {
@@ -136340,6 +137123,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .xl\:focus-within\:border-eatis-affaire:focus-within {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -136788,6 +137576,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .xl\:hover\:border-eatis-affaire:hover {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -137234,6 +138027,11 @@ header{
   .xl\:focus\:border-eatis-info:focus {
     --tw-border-opacity: 1;
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
+  }
+
+  .xl\:focus\:border-eatis-affaire:focus {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
   }
 
   .xl\:border-opacity-0 {
@@ -144171,6 +144969,21 @@ header{
     color: rgba(31, 40, 92, var(--tw-placeholder-opacity));
   }
 
+  .xl\:placeholder-eatis-affaire::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:placeholder-eatis-affaire:-ms-input-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:placeholder-eatis-affaire::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
   .xl\:focus\:placeholder-transparent:focus::-moz-placeholder {
     color: transparent;
   }
@@ -145513,6 +146326,21 @@ header{
   .xl\:focus\:placeholder-eatis-info:focus::placeholder {
     --tw-placeholder-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-eatis-affaire:focus::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-eatis-affaire:focus:-ms-input-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-eatis-affaire:focus::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
   }
 
   .xl\:placeholder-opacity-0::-moz-placeholder {
@@ -149405,6 +150233,10 @@ header{
     --tw-ring-offset-color: #1f285c;
   }
 
+  .xl\:ring-offset-eatis-affaire {
+    --tw-ring-offset-color: #d1be94;
+  }
+
   .xl\:focus-within\:ring-offset-transparent:focus-within {
     --tw-ring-offset-color: transparent;
   }
@@ -149765,6 +150597,10 @@ header{
     --tw-ring-offset-color: #1f285c;
   }
 
+  .xl\:focus-within\:ring-offset-eatis-affaire:focus-within {
+    --tw-ring-offset-color: #d1be94;
+  }
+
   .xl\:focus\:ring-offset-transparent:focus {
     --tw-ring-offset-color: transparent;
   }
@@ -150123,6 +150959,10 @@ header{
 
   .xl\:focus\:ring-offset-eatis-info:focus {
     --tw-ring-offset-color: #1f285c;
+  }
+
+  .xl\:focus\:ring-offset-eatis-affaire:focus {
+    --tw-ring-offset-color: #d1be94;
   }
 
   .xl\:ring-offset-0 {
@@ -150633,6 +151473,11 @@ header{
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
   }
 
+  .xl\:ring-eatis-affaire {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
+  }
+
   .xl\:focus-within\:ring-transparent:focus-within {
     --tw-ring-color: transparent;
   }
@@ -151081,6 +151926,11 @@ header{
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
   }
 
+  .xl\:focus-within\:ring-eatis-affaire:focus-within {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
+  }
+
   .xl\:focus\:ring-transparent:focus {
     --tw-ring-color: transparent;
   }
@@ -151527,6 +152377,11 @@ header{
   .xl\:focus\:ring-eatis-info:focus {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
+  }
+
+  .xl\:focus\:ring-eatis-affaire:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
   }
 
   .xl\:ring-opacity-0 {
@@ -152201,6 +153056,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .xl\:text-eatis-affaire {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .group:hover .xl\:group-hover\:text-transparent {
     color: transparent;
   }
@@ -152647,6 +153507,11 @@ header{
   .group:hover .xl\:group-hover\:text-eatis-info {
     --tw-text-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-text-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:text-eatis-affaire {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
   }
 
   .xl\:focus-within\:text-transparent:focus-within {
@@ -153097,6 +153962,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .xl\:focus-within\:text-eatis-affaire:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -153545,6 +154415,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .xl\:hover\:text-eatis-affaire:hover {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .xl\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -153991,6 +154866,11 @@ header{
   .xl\:focus\:text-eatis-info:focus {
     --tw-text-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-text-opacity));
+  }
+
+  .xl\:focus\:text-eatis-affaire:focus {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
   }
 
   .xl\:text-opacity-0 {
@@ -160246,6 +161126,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-divide-opacity));
   }
 
+  .\32xl\:divide-eatis-affaire > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-divide-opacity));
+  }
+
   .\32xl\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
   }
@@ -160878,6 +161763,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .\32xl\:bg-eatis-affaire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .group:hover .\32xl\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -161324,6 +162214,11 @@ header{
   .group:hover .\32xl\:group-hover\:bg-eatis-info {
     --tw-bg-opacity: 1;
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-eatis-affaire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
   }
 
   .\32xl\:focus-within\:bg-transparent:focus-within {
@@ -161774,6 +162669,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .\32xl\:focus-within\:bg-eatis-affaire:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .\32xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -162222,6 +163122,11 @@ header{
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
   }
 
+  .\32xl\:hover\:bg-eatis-affaire:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
+  }
+
   .\32xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -162668,6 +163573,11 @@ header{
   .\32xl\:focus\:bg-eatis-info:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(31, 40, 92, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-eatis-affaire:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 190, 148, var(--tw-bg-opacity));
   }
 
   .\32xl\:bg-none {
@@ -163156,6 +164066,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .\32xl\:from-eatis-affaire {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .\32xl\:via-transparent {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -163516,6 +164431,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .\32xl\:via-eatis-affaire {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .\32xl\:to-transparent {
     --tw-gradient-to: transparent;
   }
@@ -163874,6 +164793,10 @@ header{
 
   .\32xl\:to-eatis-info {
     --tw-gradient-to: #1f285c;
+  }
+
+  .\32xl\:to-eatis-affaire {
+    --tw-gradient-to: #d1be94;
   }
 
   .\32xl\:hover\:from-transparent:hover {
@@ -164326,6 +165249,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .\32xl\:hover\:from-eatis-affaire:hover {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .\32xl\:hover\:via-transparent:hover {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -164686,6 +165614,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .\32xl\:hover\:via-eatis-affaire:hover {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .\32xl\:hover\:to-transparent:hover {
     --tw-gradient-to: transparent;
   }
@@ -165044,6 +165976,10 @@ header{
 
   .\32xl\:hover\:to-eatis-info:hover {
     --tw-gradient-to: #1f285c;
+  }
+
+  .\32xl\:hover\:to-eatis-affaire:hover {
+    --tw-gradient-to: #d1be94;
   }
 
   .\32xl\:focus\:from-transparent:focus {
@@ -165496,6 +166432,11 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .\32xl\:focus\:from-eatis-affaire:focus {
+    --tw-gradient-from: #d1be94;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .\32xl\:focus\:via-transparent:focus {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
@@ -165856,6 +166797,10 @@ header{
     --tw-gradient-stops: var(--tw-gradient-from), #1f285c, var(--tw-gradient-to, rgba(31, 40, 92, 0));
   }
 
+  .\32xl\:focus\:via-eatis-affaire:focus {
+    --tw-gradient-stops: var(--tw-gradient-from), #d1be94, var(--tw-gradient-to, rgba(209, 190, 148, 0));
+  }
+
   .\32xl\:focus\:to-transparent:focus {
     --tw-gradient-to: transparent;
   }
@@ -166214,6 +167159,10 @@ header{
 
   .\32xl\:focus\:to-eatis-info:focus {
     --tw-gradient-to: #1f285c;
+  }
+
+  .\32xl\:focus\:to-eatis-affaire:focus {
+    --tw-gradient-to: #d1be94;
   }
 
   .\32xl\:bg-opacity-0 {
@@ -167044,6 +167993,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .\32xl\:border-eatis-affaire {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .group:hover .\32xl\:group-hover\:border-transparent {
     border-color: transparent;
   }
@@ -167490,6 +168444,11 @@ header{
   .group:hover .\32xl\:group-hover\:border-eatis-info {
     --tw-border-opacity: 1;
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:border-eatis-affaire {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
   }
 
   .\32xl\:focus-within\:border-transparent:focus-within {
@@ -167940,6 +168899,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .\32xl\:focus-within\:border-eatis-affaire:focus-within {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .\32xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -168388,6 +169352,11 @@ header{
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
   }
 
+  .\32xl\:hover\:border-eatis-affaire:hover {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
+  }
+
   .\32xl\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -168834,6 +169803,11 @@ header{
   .\32xl\:focus\:border-eatis-info:focus {
     --tw-border-opacity: 1;
     border-color: rgba(31, 40, 92, var(--tw-border-opacity));
+  }
+
+  .\32xl\:focus\:border-eatis-affaire:focus {
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 190, 148, var(--tw-border-opacity));
   }
 
   .\32xl\:border-opacity-0 {
@@ -175771,6 +176745,21 @@ header{
     color: rgba(31, 40, 92, var(--tw-placeholder-opacity));
   }
 
+  .\32xl\:placeholder-eatis-affaire::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .\32xl\:placeholder-eatis-affaire:-ms-input-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .\32xl\:placeholder-eatis-affaire::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
   .\32xl\:focus\:placeholder-transparent:focus::-moz-placeholder {
     color: transparent;
   }
@@ -177113,6 +178102,21 @@ header{
   .\32xl\:focus\:placeholder-eatis-info:focus::placeholder {
     --tw-placeholder-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-placeholder-opacity));
+  }
+
+  .\32xl\:focus\:placeholder-eatis-affaire:focus::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .\32xl\:focus\:placeholder-eatis-affaire:focus:-ms-input-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
+  }
+
+  .\32xl\:focus\:placeholder-eatis-affaire:focus::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-placeholder-opacity));
   }
 
   .\32xl\:placeholder-opacity-0::-moz-placeholder {
@@ -181005,6 +182009,10 @@ header{
     --tw-ring-offset-color: #1f285c;
   }
 
+  .\32xl\:ring-offset-eatis-affaire {
+    --tw-ring-offset-color: #d1be94;
+  }
+
   .\32xl\:focus-within\:ring-offset-transparent:focus-within {
     --tw-ring-offset-color: transparent;
   }
@@ -181365,6 +182373,10 @@ header{
     --tw-ring-offset-color: #1f285c;
   }
 
+  .\32xl\:focus-within\:ring-offset-eatis-affaire:focus-within {
+    --tw-ring-offset-color: #d1be94;
+  }
+
   .\32xl\:focus\:ring-offset-transparent:focus {
     --tw-ring-offset-color: transparent;
   }
@@ -181723,6 +182735,10 @@ header{
 
   .\32xl\:focus\:ring-offset-eatis-info:focus {
     --tw-ring-offset-color: #1f285c;
+  }
+
+  .\32xl\:focus\:ring-offset-eatis-affaire:focus {
+    --tw-ring-offset-color: #d1be94;
   }
 
   .\32xl\:ring-offset-0 {
@@ -182233,6 +183249,11 @@ header{
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
   }
 
+  .\32xl\:ring-eatis-affaire {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
+  }
+
   .\32xl\:focus-within\:ring-transparent:focus-within {
     --tw-ring-color: transparent;
   }
@@ -182681,6 +183702,11 @@ header{
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
   }
 
+  .\32xl\:focus-within\:ring-eatis-affaire:focus-within {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
+  }
+
   .\32xl\:focus\:ring-transparent:focus {
     --tw-ring-color: transparent;
   }
@@ -183127,6 +184153,11 @@ header{
   .\32xl\:focus\:ring-eatis-info:focus {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(31, 40, 92, var(--tw-ring-opacity));
+  }
+
+  .\32xl\:focus\:ring-eatis-affaire:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(209, 190, 148, var(--tw-ring-opacity));
   }
 
   .\32xl\:ring-opacity-0 {
@@ -183801,6 +184832,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .\32xl\:text-eatis-affaire {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .group:hover .\32xl\:group-hover\:text-transparent {
     color: transparent;
   }
@@ -184247,6 +185283,11 @@ header{
   .group:hover .\32xl\:group-hover\:text-eatis-info {
     --tw-text-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-text-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:text-eatis-affaire {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
   }
 
   .\32xl\:focus-within\:text-transparent:focus-within {
@@ -184697,6 +185738,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .\32xl\:focus-within\:text-eatis-affaire:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .\32xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -185145,6 +186191,11 @@ header{
     color: rgba(31, 40, 92, var(--tw-text-opacity));
   }
 
+  .\32xl\:hover\:text-eatis-affaire:hover {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
+  }
+
   .\32xl\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -185591,6 +186642,11 @@ header{
   .\32xl\:focus\:text-eatis-info:focus {
     --tw-text-opacity: 1;
     color: rgba(31, 40, 92, var(--tw-text-opacity));
+  }
+
+  .\32xl\:focus\:text-eatis-affaire:focus {
+    --tw-text-opacity: 1;
+    color: rgba(209, 190, 148, var(--tw-text-opacity));
   }
 
   .\32xl\:text-opacity-0 {

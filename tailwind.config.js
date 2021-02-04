@@ -10,6 +10,7 @@ module.exports = {
         'eatis-danger': '#1f285c',
         'eatis-warning': '#1f285c',
         'eatis-info': '#1f285c',
+        'eatis-affaire': '#d1be94',
 
       }
     },
